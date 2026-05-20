@@ -45,10 +45,10 @@ layers:
   - B
   - N
   - M
-  - ','
-  - .
-  - /
   - ']'
+  - /
+  - Sft+ .
+  - Sft+ ,
   - Mouse
   - {t: ENTER, h: Mouse}
   - CAPSLOCK
@@ -428,3 +428,7 @@ combos:
   k: Sft+ `
 - p: [42, 43]
   k: '`'
+- p: [31, 32]
+  k: KP DOT
+- p: [29, 28]
+  k: ','
