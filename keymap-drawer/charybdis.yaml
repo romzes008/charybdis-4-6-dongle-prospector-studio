@@ -52,8 +52,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - CAPSLOCK
-  - BACK SPACE
-  - SPACE
+  - C
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Buffer
