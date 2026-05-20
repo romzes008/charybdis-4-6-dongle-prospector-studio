@@ -397,16 +397,17 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(220, 267) rotate(12.0)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Mouse">
-<text x="0" y="-4" class="key tap layer-activator">Mouse</text>
-</a></g>
-<g transform="translate(279, 289) rotate(30.0)" class="key keypos-49">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">ENTER</text>
 <a href="#Mouse">
 <text x="0" y="24" class="key hold layer-activator">Mouse</text>
 </a></g>
+<g transform="translate(279, 289) rotate(30.0)" class="key keypos-49">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">LSHIFT</text>
+<text x="0" y="24" class="key hold">sticky</text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 78%">CAPS WORD</tspan></text>
+</g>
 <g transform="translate(327, 317) rotate(30.0)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -443,9 +444,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(565, 351) rotate(-30.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">LSHIFT</text>
-<text x="0" y="24" class="key hold">sticky</text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 78%">CAPS WORD</tspan></text>
+<a href="#Symbol">
+<text x="0" y="-4" class="key tap layer-activator">Symbol</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1050,10 +1051,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
 </g>
-<g transform="translate(565, 351) rotate(-30.0)" class="key trans keypos-55">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<text x="0" y="-4" class="key trans tap">▽</text>
+<g transform="translate(565, 351) rotate(-30.0)" class="key keypos-55">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<a href="#Base">
+<text x="0" y="-4" class="key tap layer-activator">Base</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>

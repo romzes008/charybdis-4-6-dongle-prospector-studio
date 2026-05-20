@@ -49,14 +49,14 @@ layers:
   - /
   - Sft+ .
   - Sft+ ,
-  - Mouse
   - {t: ENTER, h: Mouse}
+  - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - {t: CAPSLOCK, h: Symbol}
   - BACK SPACE
   - SPACE
   - L CLK
   - R CLK
-  - {t: LSHIFT, h: sticky, s: CAPS WORD}
+  - {t: Symbol, h: toggle}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Base, h: toggle}
   Number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
