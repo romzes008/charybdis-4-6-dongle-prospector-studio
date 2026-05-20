@@ -168,11 +168,13 @@
         combo_dot {
             bindings = <&kp KP_DOT>;
             key-positions = <31 32>;
+            require-prior-idle-ms = <200>;
         };
 
         combo_comma {
             bindings = <&kp COMMA>;
             key-positions = <29 28>;
+            require-prior-idle-ms = <200>;
         };
     };
 
