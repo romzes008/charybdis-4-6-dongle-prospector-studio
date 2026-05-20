@@ -173,7 +173,7 @@
 
         combo_comma {
             bindings = <&kp COMMA>;
-            key-positions = <29 28>;
+            key-positions = <28 27>;
             require-prior-idle-ms = <200>;
         };
 
@@ -257,6 +257,17 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &to 0   &to 1   &to 2     &trans  &trans
+                                &trans  &trans    &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
         };
