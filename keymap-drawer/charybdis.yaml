@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - ESC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -35,7 +35,7 @@ layers:
   - {t: J, h: LEFT GUI}
   - {t: K, h: LEFT SHIFT}
   - {t: L, h: LEFT ALT}
-  - {t: ;, h: LEFT CONTROL}
+  - {t: \, h: LEFT CONTROL}
   - ''''
   - LSHFT
   - Z
@@ -50,13 +50,13 @@ layers:
   - /
   - ']'
   - Mouse
-  - RET
-  - LEFT GUI
-  - {t: LSHIFT, h: sticky, s: CAPS WORD}
+  - {t: ENTER, h: Mouse}
+  - CAPSLOCK
+  - BACK SPACE
   - SPACE
-  - LEFT ALT
+  - {t: ▽, type: trans}
   - Symbol
-  - BSPC
+  - {t: LSHIFT, h: sticky, s: CAPS WORD}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,27 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LSHFT
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Number
-  - Symbol
+  - MOVE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,21 +86,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&mkp MB1', type: held}
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MOVE L
+  - MOVE D
+  - MOVE R
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L CLK
+  - R CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - M CLK
   Symbol:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&sys_reset'
-  - BOOT LDR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,7 +133,7 @@ layers:
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - '7'
   - '8'
   - '9'
@@ -145,7 +145,7 @@ layers:
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - KP EQUAL
+  - '-'
   - '4'
   - '5'
   - '6'
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -220,7 +220,7 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -404,7 +404,7 @@ combos:
   k: {t: Reset, h: toggle}
 - p: [25, 29]
   k: {t: Reset, h: toggle}
-- p: [32, 33]
+- p: [8, 9]
   k: BOOT LDR
 - p: [7, 8]
   k: {t: Base, h: toggle}
@@ -412,11 +412,23 @@ combos:
   k: {t: Function, h: sticky}
 - p: [5, 9]
   k: {t: Game, h: toggle}
-- p: [1, 2]
+- p: [16, 17]
   k: ESCAPE
 - p: [2, 3]
   k: TAB
-- p: [11, 12]
+- p: [27, 49]
   k: Ctl+ BACK SPACE
-- p: [0, 4]
+- p: [3, 2]
   k: ZMK Studio
+- p: [15, 16]
+  k: '9'
+- p: [19, 20]
+  k: '0'
+- p: [14, 15]
+  k: '['
+- p: [20, 21]
+  k: ']'
+- p: [13, 14]
+  k: Sft+ {
+- p: [21, 22]
+  k: Sft+ }
