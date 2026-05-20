@@ -101,7 +101,7 @@
         };
 
         combo_normal {
-            key-positions = <7 8>;
+            key-positions = <8 19>;
             bindings = <&to 0>;
         };
 
@@ -206,7 +206,7 @@
 &kp TAB  &kp Q                &kp W            &kp E              &kp R            &kp T           &kp Y          &kp U            &kp I              &kp O            &kp P                        &kp LEFT_BRACKET
 &kp ESC  &hmr LEFT_CONTROL A  &hmr LEFT_ALT S  &hmr LEFT_SHIFT D  &hmr LEFT_GUI F  &kp G           &kp H          &hmr LEFT_GUI J  &hmr LEFT_SHIFT K  &hmr LEFT_ALT L  &hmr LEFT_CONTROL SEMICOLON  &kp APOS
 &trans   &kp Z                &kp X            &kp C              &kp V            &kp B           &kp N          &kp M            &kp RIGHT_BRACKET  &kp SLASH        &kp LS(DOT)                  &kp LS(COMMA)
-                                               &tog 1             &smart_shift     &kp CAPSLOCK    &kp BACKSPACE  &kp SPACE
+                                               &trans             &smart_shift     &kp CAPSLOCK    &kp BACKSPACE  &kp SPACE
                                                                   &mkp LCLK        &mkp RCLK       &mo 4
             >;
         };
@@ -220,7 +220,7 @@
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans  &trans  &trans          &trans          &trans           &trans       &trans     &trans          &trans          &trans           &trans  &trans
                                 &tog 1          &kp LG(C)        &kp LG(V)    &mkp LCLK  &mkp RCLK
-                                                &kp LG(X)        &kp LG(Z)    &mkp MCLK
+                                                &kp LG(X)        &kp LG(Z)    &trans
             >;
         };
 
@@ -233,7 +233,7 @@
 &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans
 &trans  &trans  &trans    &trans    &trans     &trans    &kp KP_PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSLASH    &trans
                           &trans    &trans     &trans    &trans        &trans
-                                    &trans     &trans    &tog 2
+                                    &trans     &trans    &trans
             >;
         };
 
@@ -241,11 +241,11 @@
             label = "Number";
             display-name = "Number";
             bindings = <
-&trans  &trans    &trans  &trans    &trans    &trans       &bootloader  &sys_reset  &trans           &trans    &trans    &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET    &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DEL
-&trans  &trans    &trans  &trans    &trans    &trans       &trans       &trans      &trans           &trans    &trans    &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS    &kp PLUS    &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                          &trans    &trans    &trans       &trans       &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans           &trans    &trans    &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DEL
+&trans  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans           &trans    &trans    &trans
+&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp PLUS  &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                          &trans    &trans    &trans       &trans     &trans
                                     &trans    &trans       &trans
             >;
         };
@@ -256,18 +256,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &tog 1  &tog 2    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+                        &to 0   &to 1   &to 2     &trans  &trans
                                 &trans  &trans    &trans
             >;
         };
