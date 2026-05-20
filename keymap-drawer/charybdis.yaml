@@ -51,7 +51,7 @@ layers:
   - Sft+ ,
   - {t: ENTER, h: Mouse}
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
-  - {t: CAPSLOCK, h: Symbol}
+  - CAPSLOCK
   - BACK SPACE
   - SPACE
   - L CLK
@@ -165,7 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -432,3 +432,5 @@ combos:
   k: KP DOT
 - p: [29, 28]
   k: ','
+- p: [38, 39, 40]
+  k: CAPS WORD
