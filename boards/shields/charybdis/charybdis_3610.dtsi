@@ -49,7 +49,5 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
 
-        invert-x;
-        invert-y;
     };
 };
