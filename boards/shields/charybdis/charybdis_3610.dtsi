@@ -49,13 +49,5 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         invert-y;
-        zmk,transform = <&rotate_45>;
-    };
-};
-
-&zmk {
-    rotate_45: rotate_45 {
-        compatible = "zmk,transform";
-        zmk,transform = <0.7071 0.7071 -0.7071 0.7071>;
     };
 };

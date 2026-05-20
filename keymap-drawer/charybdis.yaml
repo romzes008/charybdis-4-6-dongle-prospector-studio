@@ -35,9 +35,9 @@ layers:
   - {t: J, h: LEFT GUI}
   - {t: K, h: LEFT SHIFT}
   - {t: L, h: LEFT ALT}
-  - {t: \, h: LEFT CONTROL}
+  - {t: ;, h: LEFT CONTROL}
   - ''''
-  - LSHFT
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
@@ -51,11 +51,11 @@ layers:
   - Sft+ ,
   - Mouse
   - {t: ENTER, h: Mouse}
-  - CAPSLOCK
+  - {t: CAPSLOCK, h: Symbol}
   - BACK SPACE
   - SPACE
-  - {t: ▽, type: trans}
-  - Symbol
+  - L CLK
+  - R CLK
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
   Mouse:
   - {t: ▽, type: trans}
@@ -165,11 +165,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number:
   - {t: ▽, type: trans}
