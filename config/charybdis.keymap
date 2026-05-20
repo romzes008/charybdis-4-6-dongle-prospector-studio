@@ -213,10 +213,10 @@
             label = "Symbol";
             display-name = "Symbol";
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &trans      &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &kp UP    &trans     &trans      &kp EQUAL     &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &kp MINUS     &kp N4  &kp N5  &kp N6  &kp N0  &trans
-&trans  &trans  &trans    &trans    &kp MINUS  &kp PLUS    &kp KP_MINUS  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans  &trans    &trans    &trans     &trans      &trans        &trans           &trans           &trans           &trans           &trans
+&trans  &trans  &trans    &kp UP    &trans     &trans      &kp EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_5  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans    &trans    &kp MINUS  &kp PLUS    &kp KP_PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSLASH    &trans
                           &trans    &trans     &trans      &trans        &trans
                                     &trans     &trans      &trans
             >;
