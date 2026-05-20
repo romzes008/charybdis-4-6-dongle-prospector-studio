@@ -185,12 +185,12 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-&trans     &trans              &trans          &trans            &sys_reset      &bootloader     &bootloader    &sys_reset      &trans             &trans          &trans                      &trans
-&kp TAB    &kp Q               &kp W           &kp E             &kp R           &kp T           &kp Y          &kp U           &kp I              &kp O           &kp P                       &kp LEFT_BRACKET
-&kp ESC    &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &kp G           &kp H          &mt LEFT_GUI J  &mt LEFT_SHIFT K   &mt LEFT_ALT L  &mt LEFT_CONTROL BACKSLASH  &kp APOS
-&kp LSHFT  &kp Z               &kp X           &kp C             &kp V           &kp B           &kp N          &kp M           &kp RIGHT_BRACKET  &kp SLASH       &kp LS(DOT)                 &kp LS(COMMA)
-                                               &mo 1             &lt 1 ENTER     &kp CAPSLOCK    &kp BACKSPACE  &kp SPACE
-                                                                 &trans          &mo 2           &smart_shift
+&trans     &trans               &trans           &trans             &sys_reset       &bootloader     &bootloader    &sys_reset       &trans             &trans           &trans                       &trans
+&kp TAB    &kp Q                &kp W            &kp E              &kp R            &kp T           &kp Y          &kp U            &kp I              &kp O            &kp P                        &kp LEFT_BRACKET
+&kp ESC    &hmr LEFT_CONTROL A  &hmr LEFT_ALT S  &hmr LEFT_SHIFT D  &hmr LEFT_GUI F  &kp G           &kp H          &hmr LEFT_GUI J  &hmr LEFT_SHIFT K  &hmr LEFT_ALT L  &hmr LEFT_CONTROL BACKSLASH  &kp APOS
+&kp LSHFT  &kp Z                &kp X            &kp C              &kp V            &kp B           &kp N          &kp M            &kp RIGHT_BRACKET  &kp SLASH        &kp LS(DOT)                  &kp LS(COMMA)
+                                                 &mo 1              &lt 1 ENTER      &kp CAPSLOCK    &kp BACKSPACE  &kp SPACE
+                                                                    &trans           &mo 2           &smart_shift
             >;
         };
 
