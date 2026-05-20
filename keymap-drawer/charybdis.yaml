@@ -54,8 +54,8 @@ layers:
   - CAPSLOCK
   - BACK SPACE
   - SPACE
-  - L CLK
-  - R CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Buffer
   Mouse:
   - {t: ▽, type: trans}
