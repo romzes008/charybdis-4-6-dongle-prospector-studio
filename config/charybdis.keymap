@@ -181,6 +181,16 @@
             bindings = <&caps_word>;
             key-positions = <38 39 40>;
         };
+
+        combo_question {
+            bindings = <&kp N7>;
+            key-positions = <31 20>;
+        };
+
+        combo_exclamation {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <28 15>;
+        };
     };
 
     chosen { zmk,physical-layout = &charybdis_6col_layout; };
