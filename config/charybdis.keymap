@@ -131,17 +131,17 @@
         };
 
         combo_tab {
-            key-positions = <2 3>;
+            key-positions = <3 2>;
             bindings = <&kp TAB>;
         };
 
-        combo_cdel {
+        combo_delete_line {
             key-positions = <27 49>;
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp LG(BACKSPACE)>;
         };
 
         combo_unlock {
-            key-positions = <3 2>;
+            key-positions = <3 2 16>;
             bindings = <&studio_unlock>;
         };
 
@@ -156,22 +156,22 @@
         };
 
         combo_open_square_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LA(LEFT_BRACKET)>;
             key-positions = <14 15>;
         };
 
         combo_closed_square_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp LA(RIGHT_BRACKET)>;
             key-positions = <20 21>;
         };
 
         combo_open_curly_bracket {
-            bindings = <&kp LS(LEFT_BRACE)>;
+            bindings = <&kp LS(LA(LEFT_BRACE))>;
             key-positions = <13 14>;
         };
 
         combo_closed_curly_bracket {
-            bindings = <&kp LS(RIGHT_BRACE)>;
+            bindings = <&kp LS(LA(RIGHT_BRACE))>;
             key-positions = <21 22>;
         };
     };

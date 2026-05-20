@@ -414,21 +414,21 @@ combos:
   k: {t: Game, h: toggle}
 - p: [16, 17]
   k: ESCAPE
-- p: [2, 3]
+- p: [3, 2]
   k: TAB
 - p: [27, 49]
-  k: Ctl+ BACK SPACE
-- p: [3, 2]
+  k: Gui+ BACK SPACE
+- p: [3, 2, 16]
   k: ZMK Studio
 - p: [15, 16]
   k: '9'
 - p: [19, 20]
   k: '0'
 - p: [14, 15]
-  k: '['
+  k: Alt+ [
 - p: [20, 21]
-  k: ']'
+  k: Alt+ ]
 - p: [13, 14]
-  k: Sft+ {
+  k: Sft+Alt+ {
 - p: [21, 22]
-  k: Sft+ }
+  k: Sft+Alt+ }
