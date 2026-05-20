@@ -215,11 +215,11 @@
             label = "Movement";
             display-name = "Mouse";
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans       &trans     &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans       &trans     &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans       &trans     &trans          &trans          &trans           &trans  &trans
-                                &tog 1          &kp LG(C)        &kp LG(V)    &mkp LCLK  &mkp RCLK
+&trans  &trans  &trans          &trans          &trans           &trans       &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans       &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans       &trans  &trans          &trans          &trans           &trans  &trans
+                                &tog 1          &kp LG(C)        &kp LG(V)    &trans  &trans
                                                 &kp LG(X)        &kp LG(Z)    &trans
             >;
         };

@@ -109,8 +109,8 @@ layers:
   - {t: Mouse, h: toggle}
   - Gui+ C
   - Gui+ V
-  - L CLK
-  - R CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+ X
   - Gui+ Z
   - {t: ▽, type: trans}
