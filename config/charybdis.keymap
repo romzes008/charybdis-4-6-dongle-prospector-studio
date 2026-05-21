@@ -205,7 +205,7 @@
 &kp ESC  &hmr LEFT_CONTROL A  &hmr LEFT_ALT S  &hmr LEFT_SHIFT D  &hmr LEFT_GUI F  &kp G          &kp H        &hmr LEFT_GUI J  &hmr LEFT_SHIFT K  &hmr LEFT_ALT L  &hmr LEFT_CONTROL SEMICOLON  &kp APOS
 &trans   &kp Z                &kp X            &kp C              &kp V            &kp B          &kp N        &kp M            &kp RIGHT_BRACKET  &kp SLASH        &kp LS(DOT)                  &kp LS(COMMA)
                                                &kp A              &kp B            &kp C          &kp F        &kp G
-                                                                  &kp D            &kp E          &kp D
+                                                                  &kp D            &kp E          &kp H
             >;
         };
 
