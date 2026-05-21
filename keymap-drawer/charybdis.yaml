@@ -49,14 +49,14 @@ layers:
   - /
   - Sft+ .
   - Sft+ ,
-  - {t: ▽, type: trans}
-  - {t: LSHIFT, h: sticky, s: CAPS WORD}
-  - CAPSLOCK
-  - C
+  - A
   - B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Buffer
+  - C
+  - F
+  - G
+  - D
+  - E
+  - D
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -284,7 +284,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [8, 9]
   k: BOOT LDR
