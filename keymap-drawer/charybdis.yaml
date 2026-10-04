@@ -49,7 +49,7 @@ layers:
   - /
   - Sft+ ,
   - Sft+ ,
-  - {t: '&macos_capslock', h: Navigation}
+  - Navigation
   - numpad
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - BACK SPACE

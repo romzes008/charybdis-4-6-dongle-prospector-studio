@@ -31,15 +31,6 @@
 
 / {
     behaviors {
-        caps_layer: caps_layer {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
-            bindings = <&mo>, <&macos_capslock>;
-        };
-
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -86,6 +77,14 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
             bindings = <&kp>, <&kp>;
+        };
+
+        smart_shift: smart_shift {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&sk LSHIFT>, <&caps_word>;
+
+            mods = <(MOD_LSFT)>;
         };
     };
 
