@@ -52,8 +52,8 @@ layers:
   - {t: CAPSLOCK, h: Navigation}
   - numpad
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
-  - SPACE
   - BACK SPACE
+  - SPACE
   - Symbols
   - vim
   - TAB
