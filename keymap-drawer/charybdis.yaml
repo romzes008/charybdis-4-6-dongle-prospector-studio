@@ -5,15 +5,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&sys_reset'
-  - BOOT LDR
-  - BOOT LDR
-  - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - '['
-  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -35,8 +35,8 @@ layers:
   - {t: J, h: LEFT GUI}
   - {t: K, h: LEFT SHIFT}
   - {t: L, h: LEFT ALT}
-  - {t: ;, h: LEFT CONTROL}
-  - ''''
+  - {t: '''', h: LEFT CONTROL}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Z
   - X
@@ -45,9 +45,9 @@ layers:
   - B
   - N
   - M
-  - ']'
   - /
   - Sft+ .
+  - Sft+ ,
   - Sft+ ,
   - {t: CAPSLOCK, h: Navigation}
   - numpad
@@ -56,7 +56,7 @@ layers:
   - SPACE
   - Symbols
   - vim
-  - TAB
+  - CAPSLOCK
   Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -66,15 +66,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+ X
   - UP ARROW
-  - {t: ▽, type: trans}
+  - Gui+ Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - PAGE UP
   - {t: ▽, type: trans}
   - MOVE L
   - MOVE D
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - L CLK
   - M CLK
@@ -107,13 +107,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+ C
-  - Gui+ V
-  - {t: ▽, type: trans}
   - DELETE
-  - Gui+ X
-  - Gui+ Z
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ V
   numpad:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -520,7 +520,7 @@ combos:
   k: {t: Base, h: toggle}
 - p: [16, 17]
   k: ESCAPE
-- p: [3, 2]
+- p: [40, 39]
   k: TAB
 - p: [27, 49]
   k: Gui+ BACK SPACE
@@ -554,3 +554,9 @@ combos:
   k: '1'
 - p: [49, 41]
   k: bluetooth
+- p: [38, 39]
+  k: Sft+ TAB
+- p: [17, 16, 15]
+  k: PAGE UP
+- p: [39, 40, 41]
+  k: PAGE DOWN
