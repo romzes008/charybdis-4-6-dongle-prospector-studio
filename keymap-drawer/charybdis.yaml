@@ -35,8 +35,8 @@ layers:
   - {t: J, h: LEFT GUI}
   - {t: K, h: LEFT SHIFT}
   - {t: L, h: LEFT ALT}
-  - {t: '''', h: LEFT CONTROL}
-  - {t: ▽, type: trans}
+  - {t: ;, h: LEFT CONTROL}
+  - ''''
   - {t: ▽, type: trans}
   - Z
   - X
@@ -45,8 +45,8 @@ layers:
   - B
   - N
   - M
+  - ']'
   - /
-  - Sft+ .
   - Sft+ ,
   - Sft+ ,
   - {t: CAPSLOCK, h: Navigation}
