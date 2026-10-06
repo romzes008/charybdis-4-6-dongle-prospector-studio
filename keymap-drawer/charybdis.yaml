@@ -518,7 +518,7 @@ combos:
   k: BOOT LDR
 - p: [8, 19]
   k: {t: Base, h: toggle}
-- p: [16, 17]
+- p: [16, 17, 14]
   k: ESCAPE
 - p: [40, 39]
   k: TAB
