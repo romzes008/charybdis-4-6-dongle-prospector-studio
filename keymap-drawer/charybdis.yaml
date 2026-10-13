@@ -101,11 +101,11 @@ layers:
   - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - L CLK
-  - M CLK
-  - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
