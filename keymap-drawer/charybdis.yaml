@@ -65,23 +65,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT PRV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
   - BT CLR ALL
-  - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ X
+  - VOLUME DOWN
   - UP ARROW
-  - Gui+ Z
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MOVE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -93,11 +93,11 @@ layers:
   - MOVE D
   - MOVE R
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
   - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
@@ -109,11 +109,11 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ C
-  - DELETE
+  - BACK SPACE
+  - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ V
+  - L CLK
   numpad:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -467,8 +467,6 @@ combos:
   k: TAB
 - p: [27, 49]
   k: Gui+ BACK SPACE
-- p: [3, 2, 16]
-  k: ZMK Studio
 - p: [15, 16]
   k: '9'
 - p: [19, 20]

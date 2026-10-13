@@ -119,11 +119,6 @@
             bindings = <&kp LG(BACKSPACE)>;
         };
 
-        combo_unlock {
-            key-positions = <3 2 16>;
-            bindings = <&studio_unlock>;
-        };
-
         combo_open_round_bracket {
             bindings = <&kp N9>;
             key-positions = <15 16>;
