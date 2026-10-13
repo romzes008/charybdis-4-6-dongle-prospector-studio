@@ -229,12 +229,12 @@
             label = "Movement";
             display-name = "Navigation";
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans           &trans     &bt BT_PRV      &bt BT_CLR_ALL  &bt BT_NXT       &trans  &trans
-&trans  &trans  &kp LG(X)       &kp UP_ARROW    &kp LG(Z)        &trans           &trans     &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &kp PAGE_DOWN    &trans     &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-                                &trans          &trans           &trans           &kp LG(C)  &kp DELETE
-                                                &trans           &trans           &kp LG(V)
+&trans     &trans     &trans             &trans          &trans           &trans           &trans         &trans          &trans          &trans           &bt BT_CLR  &bt BT_CLR_ALL
+&trans     &trans     &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOLUME_UP  &kp K_MUTE       &trans         &trans          &mmv MOVE_UP    &trans           &trans      &bt BT_SEL 0
+&trans     &trans     &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &trans         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans      &bt BT_SEL 1
+&kp LG(Z)  &kp LG(X)  &kp LG(C)          &kp LG(V)       &trans           &kp PAGE_DOWN    &trans         &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans      &trans
+                                         &trans          &trans           &trans           &kp BACKSPACE  &mkp RCLK
+                                                         &trans           &trans           &mkp LCLK
             >;
         };
 
