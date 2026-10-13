@@ -67,7 +67,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - OUT TOG
   - BT CLR
   - BT CLR ALL
   - {t: ▽, type: trans}

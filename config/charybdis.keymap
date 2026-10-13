@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
@@ -224,7 +225,7 @@
             label = "Movement";
             display-name = "Navigation";
             bindings = <
-&trans     &trans     &trans             &trans          &trans           &trans           &trans         &trans          &trans          &trans           &bt BT_CLR    &bt BT_CLR_ALL
+&trans     &trans     &trans             &trans          &trans           &trans           &trans         &trans          &trans          &out OUT_TOG     &bt BT_CLR    &bt BT_CLR_ALL
 &trans     &trans     &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOLUME_UP  &kp K_MUTE       &trans         &trans          &mmv MOVE_UP    &trans           &bt BT_PRV    &bt BT_NXT
 &trans     &trans     &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &trans         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 0  &bt BT_SEL 1
 &kp LG(Z)  &kp LG(X)  &kp LG(C)          &kp LG(V)       &trans           &kp PAGE_DOWN    &trans         &trans          &trans          &bt BT_SEL 4     &bt BT_SEL 2  &bt BT_SEL 3
