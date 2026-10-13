@@ -50,7 +50,7 @@ layers:
   - Sft+ ,
   - Sft+ ,
   - Navigation
-  - numpad
+  - {t: ENTER, h: numpad}
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - BACK SPACE
   - SPACE
@@ -166,11 +166,11 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - L CLK
+  - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - M CLK
   Symbols:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
