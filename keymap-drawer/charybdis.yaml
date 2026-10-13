@@ -54,8 +54,8 @@ layers:
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - BACK SPACE
   - SPACE
-  - {t: ',', h: Symbols}
-  - {t: ., h: vim}
+  - {t: ., h: Symbols}
+  - {t: ',', h: vim}
   - CAPSLOCK
   Navigation:
   - {t: ▽, type: trans}

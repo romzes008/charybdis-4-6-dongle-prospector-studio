@@ -216,7 +216,7 @@
 &trans  &hmr LEFT_CONTROL A  &hmr LEFT_ALT S  &hmr LEFT_SHIFT D  &hmr LEFT_GUI F  &kp G           &kp H          &hmr LEFT_GUI J  &hmr LEFT_SHIFT K  &hmr LEFT_ALT L  &hmr LEFT_CONTROL SEMICOLON  &kp APOS
 &trans  &kp Z                &kp X            &kp C              &kp V            &kp B           &kp N          &kp M            &kp RIGHT_BRACKET  &kp SLASH        &kp LS(COMMA)                &kp LS(COMMA)
                                               &lt 1 TAB          &lt 2 ENTER      &smart_shift    &kp BACKSPACE  &kp SPACE
-                                                                 &lt 3 COMMA      &lt 4 PERIOD    &kp CAPSLOCK
+                                                                 &lt 3 PERIOD     &lt 4 COMMA     &kp CAPSLOCK
             >;
         };
 
