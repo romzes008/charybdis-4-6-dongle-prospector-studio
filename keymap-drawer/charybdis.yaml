@@ -49,13 +49,13 @@ layers:
   - /
   - Sft+ ,
   - Sft+ ,
-  - Navigation
+  - {t: TAB, h: Navigation}
   - {t: ENTER, h: numpad}
   - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - BACK SPACE
   - SPACE
-  - Symbols
-  - vim
+  - {t: ',', h: Symbols}
+  - {t: ., h: vim}
   - CAPSLOCK
   Navigation:
   - {t: ▽, type: trans}
@@ -146,10 +146,10 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP 0
+  - {t: KP 4, h: RGUI}
+  - {t: KP 5, h: LEFT SHIFT}
+  - {t: KP 6, h: LEFT ALT}
+  - {t: KP 0, h: LEFT CONTROL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
