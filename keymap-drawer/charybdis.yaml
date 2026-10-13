@@ -80,8 +80,8 @@ layers:
   - {t: ▽, type: trans}
   - MOVE UP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
+  - BT PRV
+  - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -92,7 +92,7 @@ layers:
   - MOVE L
   - MOVE D
   - MOVE R
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - Gui+ Z
   - Gui+ X
