@@ -20,8 +20,6 @@
 include:
   - board: nice_nano//zmk
     shield: charybdis_dongle
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: dongle
   
   - board: nice_nano//zmk
