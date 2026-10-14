@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - {t: ▽, type: trans}
+  - {t: vim, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -13,7 +13,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: tmux, h: toggle}
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - '['
-  - {t: ▽, type: trans}
+  - {t: multimedia, h: toggle}
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -37,7 +37,7 @@ layers:
   - {t: L, h: LEFT ALT}
   - {t: ;, h: LEFT CONTROL}
   - ''''
-  - {t: ▽, type: trans}
+  - {t: pycharm, h: toggle}
   - '&z_tap_dance'
   - '&x_tap_dance'
   - '&c_tap_dance'
@@ -55,7 +55,7 @@ layers:
   - BACK SPACE
   - SPACE
   - {t: ., h: Symbols}
-  - {t: ',', h: vim}
+  - {t: ',', h: pycharm}
   - CAPSLOCK
   Navigation:
   - {t: ▽, type: trans}
@@ -229,6 +229,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   vim:
+  - {t: vim, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,7 +284,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   tmux:
   - {t: ▽, type: trans}
@@ -298,7 +298,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: tmux, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -344,6 +344,17 @@ layers:
   - {t: ▽, type: trans}
   pycharm:
   - {t: ▽, type: trans}
+  - Gui+ 2
+  - Gui+ 7
+  - Gui+ 0
+  - Gui+ 1
+  - Gui+ 4
+  - Gui+ 5
+  - Alt+ DEV TOOLS
+  - Gui+ ;
+  - Gui+ 9
+  - Gui+Sft+ F
+  - Gui+Sft+ R
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -368,6 +379,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: pycharm, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -385,19 +397,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   multimedia:
   - {t: ▽, type: trans}
@@ -424,7 +424,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: multimedia, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
