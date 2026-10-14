@@ -87,6 +87,34 @@
 
             mods = <(MOD_LSFT)>;
         };
+
+        z_tap_dance: z_tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Z_TAP_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp Z>, <&kp LG(Z)>;
+        };
+
+        x_tap_dance: x_tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "X_TAP_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp X>, <&kp LG(X)>;
+        };
+
+        c_tap_dance: c_tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "C_TAP_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp C>, <&kp LG(C)>;
+        };
+
+        v_tap_dance: v_tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "V_TAP_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp V>, <&kp LG(V)>;
+        };
     };
 
     combos {
@@ -212,10 +240,10 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-&trans  &trans               &trans           &trans             &trans           &trans          &trans         &trans           &trans             &trans           &trans                       &trans
+&trans  &trans               &trans           &trans             &trans           &trans          &trans         &trans           &kp LG(LS(A))      &trans           &trans                       &trans
 &trans  &kp Q                &kp W            &kp E              &kp R            &kp T           &kp Y          &kp U            &kp I              &kp O            &kp P                        &kp LEFT_BRACKET
 &trans  &hmr LEFT_CONTROL A  &hmr LEFT_ALT S  &hmr LEFT_SHIFT D  &hmr LEFT_GUI F  &kp G           &kp H          &hmr LEFT_GUI J  &hmr LEFT_SHIFT K  &hmr LEFT_ALT L  &hmr LEFT_CONTROL SEMICOLON  &kp APOS
-&trans  &kp Z                &kp X            &kp C              &kp V            &kp B           &kp N          &kp M            &kp RIGHT_BRACKET  &kp SLASH        &kp LS(COMMA)                &kp LS(COMMA)
+&trans  &z_tap_dance         &x_tap_dance     &c_tap_dance       &v_tap_dance     &kp B           &kp N          &kp M            &kp RIGHT_BRACKET  &kp SLASH        &kp LS(COMMA)                &kp LS(COMMA)
                                               &lt 1 TAB          &lt 2 ENTER      &smart_shift    &kp BACKSPACE  &kp SPACE
                                                                  &lt 3 PERIOD     &lt 4 COMMA     &kp CAPSLOCK
             >;
@@ -226,7 +254,7 @@
             display-name = "Navigation";
             bindings = <
 &trans     &trans     &trans             &trans          &trans           &trans           &trans         &trans          &trans          &out OUT_TOG     &bt BT_CLR    &bt BT_CLR_ALL
-&trans     &trans     &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOLUME_UP  &kp K_MUTE       &trans         &trans          &mmv MOVE_UP    &trans           &bt BT_PRV    &bt BT_NXT
+&trans     &trans     &kp C_VOLUME_DOWN  &kp UP_ARROW    &kp C_VOLUME_UP  &kp K_MUTE       &trans         &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &bt BT_PRV    &bt BT_NXT
 &trans     &trans     &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &trans         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 0  &bt BT_SEL 1
 &kp LG(Z)  &kp LG(X)  &kp LG(C)          &kp LG(V)       &trans           &kp PAGE_DOWN    &trans         &trans          &trans          &bt BT_SEL 4     &bt BT_SEL 2  &bt BT_SEL 3
                                          &trans          &trans           &trans           &kp BACKSPACE  &mkp RCLK

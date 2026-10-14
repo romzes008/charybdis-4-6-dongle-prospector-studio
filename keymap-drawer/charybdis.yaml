@@ -9,7 +9,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+ A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -38,10 +38,10 @@ layers:
   - {t: ;, h: LEFT CONTROL}
   - ''''
   - {t: ▽, type: trans}
-  - Z
-  - X
-  - C
-  - V
+  - '&z_tap_dance'
+  - '&x_tap_dance'
+  - '&c_tap_dance'
+  - '&v_tap_dance'
   - B
   - N
   - M
@@ -77,9 +77,9 @@ layers:
   - VOLUME UP
   - MUTE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
   - MOVE UP
-  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
   - BT PRV
   - BT NXT
   - {t: ▽, type: trans}
