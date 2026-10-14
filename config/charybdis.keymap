@@ -134,7 +134,7 @@
         };
 
         combo_esc {
-            key-positions = <16 17 14>;
+            key-positions = <16 17>;
             bindings = <&kp ESCAPE>;
         };
 
