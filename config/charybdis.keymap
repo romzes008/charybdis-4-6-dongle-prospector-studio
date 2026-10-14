@@ -122,8 +122,8 @@
         timeout-ms = <20>;
         require-prior-idle-ms = <250>;
 
-        combo_reset_central {
-            key-positions = <8 9>;
+        combo_reset_right {
+            key-positions = <9 7>;
             bindings = <&bootloader>;
             require-prior-idle-ms = <2000>;
         };
@@ -136,11 +136,6 @@
         combo_esc {
             key-positions = <16 17>;
             bindings = <&kp ESCAPE>;
-        };
-
-        combo_tab {
-            key-positions = <40 39>;
-            bindings = <&kp TAB>;
         };
 
         combo_delete_line {
@@ -228,6 +223,12 @@
         combo_page_down {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <39 40 41>;
+        };
+
+        combo_reset_left {
+            bindings = <&bootloader>;
+            key-positions = <2 4>;
+            require-prior-idle-ms = <2000>;
         };
     };
 

@@ -457,14 +457,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [8, 9]
+- p: [9, 7]
   k: BOOT LDR
 - p: [8, 19]
   k: {t: Base, h: toggle}
 - p: [16, 17]
   k: ESCAPE
-- p: [40, 39]
-  k: TAB
 - p: [27, 49]
   k: Gui+ BACK SPACE
 - p: [15, 16]
@@ -499,3 +497,5 @@ combos:
   k: PAGE UP
 - p: [39, 40, 41]
   k: PAGE DOWN
+- p: [2, 4]
+  k: BOOT LDR
