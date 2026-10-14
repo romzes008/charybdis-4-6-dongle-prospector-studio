@@ -98,7 +98,7 @@ layers:
   - Gui+ X
   - Gui+ C
   - Gui+ V
-  - {t: ▽, type: trans}
+  - Gui+ TAB
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
