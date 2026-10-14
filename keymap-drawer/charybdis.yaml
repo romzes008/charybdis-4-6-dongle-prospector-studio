@@ -94,10 +94,10 @@ layers:
   - MOVE R
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
