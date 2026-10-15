@@ -120,7 +120,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "HOME_OR_LEFT_WORKSPACE";
             #binding-cells = <0>;
-            bindings = <&kp HOME>, <&kp LC(LS(LEFT))>;
+            bindings = <&kp HOME>, <&kp LC(LEFT)>;
         };
 
         end_or_right_workspace: end_or_right_workspace {
