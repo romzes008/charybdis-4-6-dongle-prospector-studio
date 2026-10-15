@@ -64,11 +64,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - OUT TOG
-  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - UP ARROW
   - VOLUME UP
   - MUTE
-  - {t: ▽, type: trans}
+  - OUT TOG
   - '&msc SCRL_LEFT'
   - MOVE UP
   - '&msc SCRL_RIGHT'
@@ -92,8 +92,8 @@ layers:
   - MOVE L
   - MOVE D
   - MOVE R
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -101,11 +101,11 @@ layers:
   - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
+  - L CLK
+  - M CLK
+  - R CLK
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '4'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - BT CLR
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
