@@ -60,9 +60,9 @@ layers:
   Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -96,9 +96,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&home_or_left_workspace'
+  - Ctl+ UP ARROW
+  - '&end_or_right_workspace'
   - PAGE DOWN
   - {t: ▽, type: trans}
   - L CLK
