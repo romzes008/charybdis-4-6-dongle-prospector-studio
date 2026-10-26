@@ -308,12 +308,12 @@
             label = "Number";
             display-name = "Symbols";
             bindings = <
-&trans  &trans    &trans  &trans    &trans    &trans       &trans        &trans    &trans    &trans    &trans         &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp NUMBER_6  &kp N7    &kp N8    &kp LPAR  &kp RPAR       &kp DEL
-&trans  &trans    &trans  &trans    &trans    &trans       &trans        &trans    &trans    &trans    &trans         &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS     &kp PLUS  &kp LBRC  &kp RBRC  &kp BACKSLASH  &kp TILDE
-                          &trans    &trans    &trans       &trans        &trans
-                                    &trans    &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans       &trans    &trans      &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp NUMBER_6  &kp N7       &kp N8    &kp LPAR    &kp RPAR       &kp DEL
+&trans  &trans  &trans  &trans  &trans  &trans    &kp EXCL      &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS     &kp PLUS     &kp LBRC  &kp RBRC    &kp BACKSLASH  &kp TILDE
+                        &trans  &trans  &trans    &trans        &trans
+                                &trans  &trans    &trans
             >;
         };
 
